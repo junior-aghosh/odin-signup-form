@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+  }
+
+body {
+    margin:0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url('./images/leaves-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    color:white;
+    font-family: Norse-Bold;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.top  {
+    height: 40vh;
+}
+.middle, .bottom {
+    height: 30vh;
+}
